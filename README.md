@@ -4,43 +4,36 @@ JobLens-MIT is a Vite + React + TypeScript demo application built to explore pla
 
 ## Project overview
 
-Goal:
 To provide an interactive, client-side dashboard that centralizes placement-related information for MIT campuses, enabling students to explore companies, job roles, hiring requirements, and trends in a structured and accessible manner.
 
 The project is best described as a placement-focused professional network, similar in spirit to LinkedIn, but limited in scope to placement data relevant to MIT campuses. Instead of general professional networking, the emphasis is on placement preparation, eligibility understanding, and data-driven insights.
 
 Primary use-cases:
-Browse job listings and filter or sort results
-Inspect company profiles and associated hiring information
-View detailed job descriptions, required skills, and eligibility criteria
-Explore dashboards showing placement-related insights and trends
-Demonstrate an eligibility or match-style prediction workflow based on stored data
+- Browse job listings and filter or sort results
+- Inspect company profiles and associated hiring information
+- View detailed job descriptions, required skills, and eligibility criteria
+- Explore dashboards showing placement-related insights and trends
+- Demonstrate an eligibility or match-style prediction workflow based on stored data
 
 ## Motivation
-
-Motivation
 
 Students at MIT often face difficulty accessing structured and reliable placement information. Details related to company visits, job roles, eligibility criteria, required skills, and hiring trends are typically scattered across notices, documents, and informal communication channels.
 
 This lack of centralization makes it difficult for students to:
-Compare opportunities across campuses
-
-Understand role-specific requirements
-
-Track hiring patterns over time
-
-Assess their own readiness for specific roles
+- Compare opportunities across campuses
+- Understand role-specific requirements
+- Track hiring patterns over time
+- Assess their own readiness for specific roles
 
 JobLens-MIT addresses this problem by aggregating placement-related data from publicly available and curated sources and organizing it into a structured database, which is then exposed through an interactive web interface.
 
 ## Tech stack
 
-Tech stack
-Framework: React + TypeScript
-UI components: Radix primitives with shadcn-style wrappers
-Data fetching and async state: TanStack Query patterns
-Styling: Tailwind CSS
-Data storage (demo): SQLite (project.db)
+- Framework: React + TypeScript
+- UI components: Radix primitives with shadcn-style wrappers
+- Data fetching and async state: TanStack Query patterns
+- Styling: Tailwind CSS
+- Data storage (demo): SQLite (project.db)
 
 ---
 
@@ -103,15 +96,16 @@ Notes:
 
 ## Future extensions
 
-Potential directions for extending the project include:
+- Potential directions for extending the project include:
 
-Adding a backend API to serve the SQLite database over HTTP
+- Adding a backend API to serve the SQLite database over HTTP
 
-Implementing server-side filtering and pagination
+- Implementing server-side filtering and pagination
 
-Enhancing prediction logic with more advanced models
+- Enhancing prediction logic with more advanced models
 
-Expanding the dataset or supporting additional institutions
+- Expanding the dataset or supporting additional institutions
 
-Adding automated tests and analytics
+- Adding automated tests and analytics
+  
 ---
