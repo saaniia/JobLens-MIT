@@ -1,10 +1,6 @@
-# JobLens-MIT
+JobLens-MIT
 
-A Vite + React + TypeScript demo application (shadcn-style UI) for exploring job listings, company profiles, and model-based predictions. This repository was created as a student project and includes a local SQLite snapshot (`project.db`) along with a written project report.
-
-This README expands on the original summary: it covers the project goals, architecture, data, how to run the app locally, and guidance for contributors and maintainers.
-
----
+JobLens-MIT is a Vite + React + TypeScript demo application built to explore placement and recruitment data across Manipal Institute of Technology (MIT) campuses in India. The application provides a unified interface to browse companies, job roles, eligibility criteria, and placement-related insights, along with a simple model-based eligibility prediction workflow.
 
 ## Project overview
 
