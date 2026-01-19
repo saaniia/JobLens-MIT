@@ -80,16 +80,6 @@ Notes:
 - You can use yarn or pnpm if you prefer; replace commands accordingly (e.g. `yarn`, `yarn dev`).
 - If you need a different Node version, use nvm or your preferred version manager. Node 18+ is recommended.
 
----
-
-## Scripts (from package.json)
-
-- dev: run Vite dev server
-- build: produce production assets
-- preview: preview the built output
-- lint: run the configured linter
-
-(See `package.json` for exact script names and additional tools.)
 
 ---
 
