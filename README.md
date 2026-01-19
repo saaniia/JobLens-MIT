@@ -39,18 +39,17 @@ JobLens-MIT addresses this problem by aggregating placement-related data from pu
 
 ## What is in this repo
 
-src/
- ├─ components/        Shared reusable components
- ├─ components/ui/     shadcn-style UI primitives
- ├─ pages/             Route-level pages (Jobs, Companies, Insights, Predict, etc.)
- ├─ contexts/          React contexts
- ├─ hooks/             Reusable hooks
- ├─ lib/               Utility and helper functions
- ├─ data/              Mock or demo data
-public/
-project.db             SQLite database snapshot (demo use only)
-DBS Project Report.*   Academic project documentation
-package.json
+- `src/`
+  - `components/` — Shared reusable components
+  - `components/ui/` — shadcn-style UI primitives
+  - `pages/` — Route-level pages (Jobs, Companies, Insights, Predict, etc.)
+  - `contexts/` — React contexts
+  - `hooks/` — Reusable hooks
+  - `lib/` — Utility and helper functions
+  - `data/` — Mock or demo data
+- `public/` — Static assets
+- `project.db` — SQLite database snapshot (demo use only)
+- `package.json` — Project metadata and scripts
 
 ---
 
